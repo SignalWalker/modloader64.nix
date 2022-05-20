@@ -1,0 +1,149 @@
+{
+  "nodes": {
+    "alejandra": {
+      "inputs": {
+        "flakeCompat": "flakeCompat",
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1652974241,
+        "narHash": "sha256-0AolxQtKj3Oek0WSbODDpPVO5Ih8PXHOA3qXEKPB4dQ=",
+        "owner": "kamadorueda",
+        "repo": "alejandra",
+        "rev": "0be1462419fc73270a5dc0f84f8092603890b029",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kamadorueda",
+        "repo": "alejandra",
+        "type": "github"
+      }
+    },
+    "flakeCompat": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1648199409,
+        "narHash": "sha256-JwPKdC2PoVBkG6E+eWw3j6BMR6sL3COpYWfif7RVb8Y=",
+        "owner": "edolstra",
+        "repo": "flake-compat",
+        "rev": "64a525ee38886ab9028e6f61790de0832aa3ef03",
+        "type": "github"
+      },
+      "original": {
+        "owner": "edolstra",
+        "repo": "flake-compat",
+        "type": "github"
+      }
+    },
+    "ml64": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1652200664,
+        "narHash": "sha256-1VYDw+nXRU1QBAP3OIdgeNVHfil4FqjUcaSqU3iTokg=",
+        "owner": "hylian-modding",
+        "repo": "modloader64",
+        "rev": "3cf506b83afca186210cc515f73d5e0d3d77e0eb",
+        "type": "github"
+      },
+      "original": {
+        "owner": "hylian-modding",
+        "repo": "modloader64",
+        "type": "github"
+      }
+    },
+    "ml64-gui": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1603674922,
+        "narHash": "sha256-c/m8QTOKGc7BXP9YYA1GZtStlwHjiEgxw7Cvm+/bb0o=",
+        "owner": "hylian-modding",
+        "repo": "modloader64-gui",
+        "rev": "b9d830ae9d9ac48faa249e6b19676f8e7a806fbb",
+        "type": "github"
+      },
+      "original": {
+        "owner": "hylian-modding",
+        "repo": "modloader64-gui",
+        "type": "github"
+      }
+    },
+    "ml64-platform-deps": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1648164143,
+        "narHash": "sha256-9EOsWXqDYEstA+sZ/uJkRqqyk+eQIgaQYIFlH/b30dM=",
+        "owner": "hylian-modding",
+        "repo": "ModLoader64-Platform-Deps",
+        "rev": "5ad2cbfdfa5020638d2af209b326f70f239fa99e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "hylian-modding",
+        "repo": "ModLoader64-Platform-Deps",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1652840887,
+        "narHash": "sha256-gEK4NNa4GwIgTZE63kt/4WTFAWRTJVSa30+h4ZjFh9U=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "52dc75a4fee3fdbcb792cb6fba009876b912bfe0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "npm2nix": {
+      "locked": {
+        "lastModified": 1648040270,
+        "narHash": "sha256-HZU4h2J5gre5ASHynlln+KoK7wgtFjsqkzVVG2XsFXM=",
+        "owner": "serokell",
+        "repo": "nix-npm-buildpackage",
+        "rev": "881f4bfa68e33cd0fb69e6b739fb92f8d0bbe37e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "serokell",
+        "repo": "nix-npm-buildpackage",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "alejandra": "alejandra",
+        "ml64": "ml64",
+        "ml64-gui": "ml64-gui",
+        "ml64-platform-deps": "ml64-platform-deps",
+        "nixpkgs": "nixpkgs",
+        "npm2nix": "npm2nix",
+        "z64lib": "z64lib"
+      }
+    },
+    "z64lib": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1652330848,
+        "narHash": "sha256-EgndDMlQiFIQN0LiJKPR2WX+Y0rXG7MhsL57L+p0GzE=",
+        "owner": "hylian-modding",
+        "repo": "ML64-Z64Lib",
+        "rev": "ab189779e081e9b5b5ba9d1de2bc7a4ffd34495e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "hylian-modding",
+        "repo": "ML64-Z64Lib",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
